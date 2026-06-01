@@ -68,12 +68,23 @@ cp -r /tmp/esp-rust-skills/esp-rust-ecosystem ~/.claude/skills/
 /install-skill https://github.com/Microbiosis/esp-rust-skills esp-rust-development
 ```
 
-## 数据来源
+## 数据来源与致谢
 
-- [The Rust on ESP Book](https://docs.espressif.com/projects/rust/book/preface.html)
-- [awesome-esp-rust](https://github.com/esp-rs/awesome-esp-rust)
-- [esp-hal 仓库](https://github.com/esp-rs/esp-hal)
+本项目的技能内容基于以下开源项目的研究整理：
+
+| 来源 | 许可证 | 说明 |
+|------|--------|------|
+| [esp-rs/book](https://github.com/esp-rs/book) | Apache-2.0 | ESP-Rust 官方教程，主要知识来源 |
+| [esp-rs/awesome-esp-rust](https://github.com/esp-rs/awesome-esp-rust) | CC0-1.0 | ESP-Rust 生态资源列表 |
+| [esp-hal](https://github.com/esp-rs/esp-hal) | Apache-2.0 / MIT | 核心 HAL 实现 |
+
+其他参考资料：
+- [The Rust on ESP Book](https://docs.espressif.com/projects/rust/book/preface.html)（Espressif 官方文档）
+- [no_std 培训](https://esp-rs.github.io/no_std-training/)（Espressif 官方）
+- [std 培训](https://esp-rs.github.io/std-training/)（Ferrous Systems）
 
 ## 许可证
 
-MIT
+[Apache License 2.0](LICENSE)
+
+本项目基于 Apache-2.0 许可证发布，继承自主要知识来源 [esp-rs/book](https://github.com/esp-rs/book) 的许可证要求。
