@@ -1,5 +1,7 @@
 # ESP-Rust Skills for Claude Code
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.20502831.svg)](https://doi.org/10.5281/zenodo.20502831)
+
 基于 [esp-rs/book](https://github.com/esp-rs/book) 和 [awesome-esp-rust](https://github.com/esp-rs/awesome-esp-rust) 深度研究制作的 Claude Code 技能。
 
 ## 包含的技能
